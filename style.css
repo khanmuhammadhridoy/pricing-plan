@@ -39,15 +39,12 @@
      list-style-image: url(img/r8.png);
  }
 
- .box ul li {
-     position: relative;
+ .cros {
+     list-style-image: url(img/wr.png) !important;
  }
 
- .box ul li ::before {
-     position: absolute;
-     content: "f00d";
-     padding: 10px;
-     color: black;
+ .box ul li {
+     position: relative;
  }
 
  .boxs {
@@ -57,9 +54,10 @@
  .element {
      padding: 30px 20px;
  }
+
  button.btn {
-    border: 1px solid #26a65b;
-    border-radius: 30px;
-    padding: 10px 30px;
-    margin: 20px;
-}
+     border: 1px solid #26a65b;
+     border-radius: 30px;
+     padding: 10px 30px;
+     margin: 20px;
+ }
