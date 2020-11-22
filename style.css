@@ -1,0 +1,65 @@
+ .pricing-plan {
+     width: 100%;
+     margin: auto;
+     padding: 20px;
+
+ }
+
+ .pricing-plan .head {
+     text-align: center;
+ }
+
+ .pricing-plan .head h1 {
+     padding: 10px;
+ }
+
+ .pricing-plan .head span {
+     color: #39ae69;
+ }
+
+ .pricing-plan .head p {
+     padding-bottom: 40px;
+ }
+
+ .box {
+     text-align: center;
+ }
+
+ .box h3 {
+     text-transform: uppercase;
+ }
+
+ .box img {
+     padding: 30px;
+ }
+
+ .box ul {
+     text-align: left;
+     list-style: none;
+     list-style-image: url(img/r8.png);
+ }
+
+ .box ul li {
+     position: relative;
+ }
+
+ .box ul li ::before {
+     position: absolute;
+     content: "f00d";
+     padding: 10px;
+     color: black;
+ }
+
+ .boxs {
+     border: 1px solid #d6ddd9;
+ }
+
+ .element {
+     padding: 30px 20px;
+ }
+ button.btn {
+    border: 1px solid #26a65b;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin: 20px;
+}
